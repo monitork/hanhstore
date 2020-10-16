@@ -1,0 +1,37 @@
+{% extends '../layouts/default.twig' %}
+{% set head_title = 'Home Page' %}
+{% set body_class = '' %}
+{% set menu_active = 'home-page' %}
+
+{% block page %}
+    <header class="section">
+        {% include '../components/header/top-header.twig' %}
+        {% include '../components/header/content-header.twig' %}
+        {% include '../../modules/navbar/navbar.twig' %}
+    </header>
+    <main class="main">
+        <section class="section home-first">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm">
+                        <div class="right-menu">
+                            <ul class="list-unstyled">
+                                <li><a href="">Thịt lợn bản</a></li>
+                                <li><a href="">Thịt bò bản</a></li>
+                                <li><a href="">Thịt gà & vịt</a></li>
+                                <li><a href="">hàng thủ công</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col">
+                        {% include '../components/home/banner.twig' %}
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    {% include '../components/footer.twig' %}
+
+{% endblock %}
