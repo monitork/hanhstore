@@ -1,36 +1,4 @@
-# There is a slightly different approach based on Utility CSS. Check it out https://github.com/tomaszbujnowicz/hybrid-utility-itcss
-
-# Frontie Webpack - Front-end Boilerplate
-
-**🚀 Gulp 4 + Webpack 4 + Babel + BrowserSync + ITCSS Architecture + BEM Methodology**
-
-These tools make it a solid front-end boilerplate to get a new project off the ground.
-
-## :gift: Features
-| Features | Description |
-| :------------- | :------------- |
-| Task Runner | [Gulp](http://gulpjs.com/)
-| CSS | [SASS](http://sass-lang.com/), [ITCSS](https://developer.helpscout.com/seed/glossary/itcss/), [CSS Guidelines](https://cssguidelin.es/), [BEM](http://getbem.com/)
-| CSS Tools | [Autoprefixer](https://github.com/postcss/autoprefixer), [Source Maps](https://www.npmjs.com/package/gulp-sourcemaps), [Stylelint](https://stylelint.io/)
-| Bootstrap 4 | [Grid System](https://getbootstrap.com/docs/4.1/layout/grid/), [Responsive Breakpoints](https://getbootstrap.com/docs/4.1/layout/overview/#responsive-breakpoints)
-| JS | [Webpack](https://webpack.js.org/), [Babel](http://babeljs.io/), [ESLint](http://eslint.org/)
-| Live Reload | [BrowserSync](http://www.browsersync.io/)
-| HTML Templates | [Twig.js](https://github.com/twigjs/twig.js)
-| Deployment | [GitHub Pages]((https://www.npmjs.com/package/gulp-gh-pages))
-
-## Usage
-
-### Requirements
-Make sure all dependencies have been installed before moving on:
-
-* [yarn](https://yarnpkg.com/lang/en/) or [npm](https://www.npmjs.com/get-npm)
-* [Node.js](https://nodejs.org/en/download/) >= 8.16.0
-* [Gulp](http://gulpjs.com/)
-
-### Quick start: Installation
-Clone this repository and run
-- `yarn` or `npm install` to install dependencies
-
+# Hạnh Store
 ### Tasks
 | Task Name | Description | Environment |
 | :------------- | :------------- | :------------- |
