@@ -20,23 +20,7 @@
     <main class="main">
         <section class="section">{% include '../components/home/banner.twig' %}</section>
         <section class="section home-first">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm">
-                        <div class="right-menu">
-                            <ul class="list-unstyled">
-                                <li><a href="">Thịt lợn bản</a></li>
-                                <li><a href="">Thịt bò bản</a></li>
-                                <li><a href="">Thịt gà & vịt</a></li>
-                                <li><a href="">hàng thủ công</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col">
-                        {% include '../components/home/banner.twig' %}
-                    </div>
-                </div>
-            </div>
+            {% include '../components/home/banner.twig' %}
         </section>
         <section class="section products_slider" data-js="slick-carousel">
             <div class="item ">
