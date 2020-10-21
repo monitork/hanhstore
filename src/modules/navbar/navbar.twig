@@ -1,32 +1,32 @@
 {#
-  HTML: /modules/navbar/navbar.twig
-  CSS:  /modules/navbar/navbar.scss
-  JS:   /modules/navbar/navbar.js
+HTML: /modules/navbar/navbar.twig
+CSS:  /modules/navbar/navbar.scss
+JS:   /modules/navbar/navbar.js
 
-  States:
+States:
 
-  * Default:
-    <nav class="navbar">
+* Default:
+  <nav class="navbar">
 
-  * Fixed to top:
-    <nav class="navbar navbar--fixed">
+* Fixed to top:
+  <nav class="navbar navbar--fixed">
 
-  * Fixed to top with "transparent animation":
-  * Navbar becomes transparent when scrolling down.
-    <nav class="navbar navbar--fixed navbar--fixed-transparent">
+* Fixed to top with "transparent animation":
+* Navbar becomes transparent when scrolling down.
+  <nav class="navbar navbar--fixed navbar--fixed-transparent">
 
-  * Fixed to top with "show / hide animation":
-  * Navbar slides out of view when scrolling down
-  * and slides back in when scrolling up.
-    <nav class="navbar navbar--fixed navbar--fixed-toggle">
+* Fixed to top with "show / hide animation":
+* Navbar slides out of view when scrolling down
+* and slides back in when scrolling up.
+  <nav class="navbar navbar--fixed navbar--fixed-toggle">
 
-  * Notes:
-  * It fires when we scroll more than 150px from to the top.
-  * You can change the value in the navbar.js
+* Notes:
+* It fires when we scroll more than 150px from to the top.
+* You can change the value in the navbar.js
 #}
 
-{#  <nav class="navbar navbar--fixed navbar--fixed-transparent" data-js="navbar">#}
-<nav class="navbar" data-js="navbar">
+{# <nav class="navbar navbar--fixed navbar--fixed-transparent" data-js="navbar"> #}
+<nav id="top_nav" class="navbar" data-js="navbar">
     <div class="container">
         <div class="navbar__wrapper">
             <button class="navbar__toggler" role="button" data-js="navbar-toggler">
@@ -34,7 +34,6 @@
                 <span class="navbar__toggler-line"></span>
                 <span class="navbar__toggler-line"></span>
             </button>
-            <div class="navbar__menus p-1"><i class="fa fa-bars mr-1" aria-hidden="true"></i> Danh mục sản phẩm</div>
             <div class="navbar__collapse ml-1">
                 <ul class="navbar__menu">
                     <li class="navbar__item{% if menu_active == 'home-page' %} navbar__item--selected{% endif %}">

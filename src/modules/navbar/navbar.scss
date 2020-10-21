@@ -4,7 +4,6 @@
 
 $navbar-height-desktop: 60px;
 $navbar-height-mobile: 50px;
-$navbar-color-bg: #046240;
 $navbar-color-link: $color-white;
 $navbar-color-link-hover: #ffd200;
 $navbar-size-toggler: 8px;
@@ -13,7 +12,6 @@ $navbar-z-index-toggler: 1010;
 $navbar-color-menus: #ffd200;
 
 .navbar {
-  background-color: $navbar-color-bg;
   z-index: $navbar-z-index;
 }
 

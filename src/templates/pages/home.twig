@@ -4,12 +4,21 @@
 {% set menu_active = 'home-page' %}
 
 {% block page %}
-    <header class="section">
-        {% include '../components/header/top-header.twig' %}
-        {% include '../components/header/content-header.twig' %}
-        {% include '../../modules/navbar/navbar.twig' %}
+    <header class="section" id="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4 col-xs-12">
+                    {% include '../components/header/logo.twig' %}
+                </div>
+                <div class="col-sm-8 col-xs-12">
+                    {% include '../components/header/top-header.twig' %}
+                    {% include '../../modules/navbar/navbar.twig' %}
+                </div>
+            </div>
+        </div>
     </header>
     <main class="main">
+        <section class="section">{% include '../components/home/banner.twig' %}</section>
         <section class="section home-first">
             <div class="container">
                 <div class="row">
@@ -28,6 +37,15 @@
                     </div>
                 </div>
             </div>
+        </section>
+        <section class="section products_slider" data-js="slick-carousel">
+            <div class="item ">
+                <img src="/assets/img/products/chan-gio.jpg" alt="">
+            </div>
+            <div class="item"><img src="/assets/img/products/chan-gio.jpg" alt=""></div>
+            <div class="item"><img src="/assets/img/products/chan-gio.jpg" alt=""></div>
+            <div class="item"><img src="/assets/img/products/chan-gio.jpg" alt=""></div>
+            <div class="item"><img src="/assets/img/products/chan-gio.jpg" alt=""></div>
         </section>
     </main>
 

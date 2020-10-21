@@ -4,7 +4,7 @@
   "description": "Frontie Webpack - Front-end Boilerplate | Gulp 4 + Webpack 4 + Babel + ITCSS Architecture + BEM Methodology + Twig.js",
   "main": "index.js",
   "dependencies": {
-    "bootstrap": "@4.3.1",
+    "bootstrap": "4.3.1",
     "flickity": "@2.2.1",
     "font-awesome": "^4.7.0",
     "jquery": "^3.5.1",
